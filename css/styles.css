@@ -4,8 +4,6 @@ body {
 }
 
 .columns {
-  float: left;
-  width: 300px;
   padding: 20px;
   border: 2px solid darkblue;
   margin: 10px;
@@ -52,4 +50,29 @@ body {
 
 h1.title {
   font-size: 48px;
+}
+
+@media screen and (min-width:1096px) {
+  .columns {
+      float: left;
+      width: 300px;
+    }
+}
+
+@media screen and (max-width: 1095px) and (min-width: 481px) {
+  body{
+    background-color: lightgrey;
+    margin: 60px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px){
+  body{
+    background-color: lightgreen;
+  }
 }
