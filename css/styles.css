@@ -16,13 +16,19 @@ body {
   font-weight: bold;
 }
 
+.columns h1 {
+  text-align: center;
+}
+
+.columns h2 {
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+}
+
 .columns p {
   font-family: verdana;
   font-style: italic;
-}
-
-.columns h1 {
-  text-align: center;
 }
 
 .c1 {
@@ -38,9 +44,12 @@ body {
 }
 
 
-h1.title {
+.title {
   font-family: fantasy;
   text-align: center;
   color:darkblue;
+}
+
+h1.title {
   font-size: 48px;
 }
