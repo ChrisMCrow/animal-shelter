@@ -52,14 +52,14 @@ h1.title {
   font-size: 48px;
 }
 
-@media screen and (min-width:1096px) {
+@media screen and (min-width:1126px) {
   .columns {
       float: left;
       width: 300px;
     }
 }
 
-@media screen and (max-width: 1095px) and (min-width: 481px) {
+@media screen and (max-width: 1125px) and (min-width: 481px) {
   body{
     background-color: lightgrey;
     margin: 60px;
