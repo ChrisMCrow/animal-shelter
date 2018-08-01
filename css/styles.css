@@ -7,6 +7,7 @@ body {
   padding: 20px;
   border: 2px solid darkblue;
   margin: 10px;
+  position: relative;
 }
 
 .bio {
@@ -55,7 +56,7 @@ h1.title {
 @media screen and (min-width:1126px) {
   .columns {
       float: left;
-      width: 300px;
+      width: 25%;
     }
 }
 
@@ -63,6 +64,7 @@ h1.title {
   body{
     background-color: lightgrey;
     margin: 60px;
+    font-size: 24px;
   }
   img {
     display: block;
@@ -74,5 +76,6 @@ h1.title {
 @media screen and (max-width: 480px){
   body{
     background-color: lightgreen;
+    font-size: 24px;
   }
 }
