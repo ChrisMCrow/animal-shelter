@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  background-color: lightblue;
+}
+
+.columns {
+  float: left;
+  width: 300px;
+  padding: 20px;
+  border: 2px solid darkblue;
+  margin: 10px;
+}
+
+.bio {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.columns p {
+  font-family: verdana;
+  font-style: italic;
+}
+
+.columns h1 {
+  text-align: center;
+}
+
+.c1 {
+  background-color: #ffcc99;
+}
+
+.c2 {
+  background-color: #99ffcc;
+}
+
+.c3 {
+  background-color: #f2e6ff;
+}
+
+
+h1.title {
+  font-family: fantasy;
+  text-align: center;
+  color:darkblue;
+  font-size: 48px;
+}
